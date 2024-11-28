@@ -1,0 +1,49 @@
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" maxVersion="1" bind-to="GUI.UserLogin">
+  <grid id="1b2c3d" layout-manager="GridLayoutManager" row-count="4" column-count="2" hgap="10" vgap="10">
+    <margin top="20" left="20" bottom="20" right="20" />
+    <children>
+      <component id="emailLabel" class="javax.swing.JLabel" binding="emailLabel">
+        <constraints>
+          <grid row="0" column="0" />
+        </constraints>
+        <properties>
+          <text value="Email:" />
+        </properties>
+      </component>
+      <component id="emailField" class="javax.swing.JTextField" binding="emailField">
+        <constraints>
+          <grid row="0" column="1" />
+        </constraints>
+      </component>
+      <component id="passwordLabel" class="javax.swing.JLabel" binding="passwordLabel">
+        <constraints>
+          <grid row="1" column="0" />
+        </constraints>
+        <properties>
+          <text value="Password:" />
+        </properties>
+      </component>
+      <component id="passwordField" class="javax.swing.JPasswordField" binding="passwordField">
+        <constraints>
+          <grid row="1" column="1" />
+        </constraints>
+      </component>
+      <component id="loginButton" class="javax.swing.JButton" binding="loginButton">
+        <constraints>
+          <grid row="2" column="0" />
+        </constraints>
+        <properties>
+          <text value="Login" />
+        </properties>
+      </component>
+      <component id="backButton" class="javax.swing.JButton" binding="backButton">
+        <constraints>
+          <grid row="2" column="1" />
+        </constraints>
+        <properties>
+          <text value="Back" />
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
